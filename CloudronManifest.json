@@ -1,16 +1,15 @@
 {
     "id": "com.bstrana.diamond-manager",
-    "title": "Diamon Manager",
+    "title": "Diamond Manager",
     "tagline": "Baseball-Softball Tournament Manager",
     "version": "1.0.0",
-    "httpPort": 8080,
     "addons": {
         "localstorage": {}
       },
     "manifestVersion": 2,
-    "postInstallMessage": "POSTINSTALL.md",
+    "postInstallMessage": "CREATE ENV",
     "tags": ["baseball"],
     "author": "Tomislav Bosanac",
     "website": "https://yourball.club/diamond-manager",
-    "memoryLimit": 2147483648
+    "memoryLimit": 268435456
 }

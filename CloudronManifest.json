@@ -1,10 +1,10 @@
 {
-    "id": "com.cloudron.diamond-manager",
+    "id": "com.bstrana.diamond-manager",
     "title": "Diamon Manager",
     "tagline": "Baseball-Softball Tournament Manager",
     "version": "1.0.0",
     "healthCheckPath": "/",
-    "httpPort": 80,
+    "httpPort": 8080,
     "addons": {
         "localstorage": {}
       },

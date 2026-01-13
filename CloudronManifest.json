@@ -2,7 +2,7 @@
   "id": "com.diamondmanager.cloudronapp",
   "title": "Diamond Manager",
   "author": "Tomislav Bosanac ",
-  "description": "file://DESCRIPTION.md",
+  "description": "cool app",
   "tagline": "Modern React and Node.js application management platform",
   "version": "1.0.0",
   "upstreamVersion": "1.0.0",
@@ -10,7 +10,6 @@
   "httpPort": 80,
   "addons": {
     "localstorage": {},
-    "postgresql": {}
   },
   "manifestVersion": 2,
   "website": "https://diamond-manager.example.com",

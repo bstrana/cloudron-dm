@@ -1,21 +1,18 @@
 {
-    "id": "com.cloudron.facilmap",
+    "id": "com.cloudron.diamond-manager",
     "title": "Facilmap",
-    "tagline": "privacy-friendly, open-source versatile online map",
+    "tagline": "Baseball-Softball Tournament Manager",
     "version": "1.0.0",
     "healthCheckPath": "/",
-    "httpPort": 8080,
+    "httpPort": 80,
     "addons": {
         "localstorage": {},
-        "mysql": {
-            "description": "Store map data and user information"
-        }
     },
     "manifestVersion": 2,
     "icon": "logo.png",
     "postInstallMessage": "POSTINSTALL.md",
-    "tags": ["map"],
-    "author": "Candid Dauth",
-    "website": "https://github.com/FacilMap/facilmap",
+    "tags": ["baseball"],
+    "author": "Tomislav Bosanac",
+    "website": "https://yourball.club/diamond-manager",
     "memoryLimit": 2147483648
 }

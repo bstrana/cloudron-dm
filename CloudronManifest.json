@@ -3,7 +3,6 @@
     "title": "Diamon Manager",
     "tagline": "Baseball-Softball Tournament Manager",
     "version": "1.0.0",
-    "healthCheckPath": "/",
     "httpPort": 8080,
     "addons": {
         "localstorage": {}

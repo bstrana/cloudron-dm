@@ -1,16 +1,29 @@
 {
-    "id": "com.bstrana.diamond-manager",
-    "title": "Diamond Manager",
-    "tagline": "Baseball-Softball Tournament Manager",
-    "version": "1.0.0",
-    "httpPort": 6969,
-    "healthCheckPath": "/",
-    "addons": {
-        "localstorage": {}
-      },
-    "manifestVersion": 2,
-    "tags": ["baseball"],
-    "author": "Tomislav Bosanac",
-    "website": "https://yourball.club/diamond-manager",
-    "memoryLimit": 268435456
+  "id": "com.diamondmanager.cloudronapp",
+  "title": "Diamond Manager",
+  "author": "Tomislav Bosanac ",
+  "description": "file://DESCRIPTION.md",
+  "tagline": "Modern React and Node.js application management platform",
+  "version": "1.0.0",
+  "upstreamVersion": "1.0.0",
+  "healthCheckPath": "/api/health",
+  "httpPort": 3000,
+  "addons": {
+    "localstorage": {},
+  },
+  "manifestVersion": 2,
+  "website": "https://diamond-manager.example.com",
+  "contactEmail": "support@example.com",
+  "documentationUrl": "https://diamond-manager.example.com/docs",
+  "icon": "file://icon.png",
+  "tags": [
+    "productivity",
+    "management",
+    "dashboard"
+  ],
+  "memoryLimit": 536870912,
+  "minBoxVersion": "7.0.0",
+  "postInstallMessage": "## Welcome to Diamond Manager!\n\n**Getting Started:**\n\n1. Access your installation at **$CLOUDRON-APP-ORIGIN**\n2. The application is pre-configured with PostgreSQL\n3. All data is automatically backed up by Cloudron\n\n**Configuration:**\n- Application data: `/app/data`\n- Logs: Available via `cloudron logs`\n- Database: Automatically configured via addon\n\n**Support:**\n- Documentation: $CLOUDRON-APP-ORIGIN/docs\n- Issues: Report via the app's repository\n\nEnjoy using Diamond Manager!",
+  "changelog": "file://CHANGELOG",
+  "optionalSso": false
 }

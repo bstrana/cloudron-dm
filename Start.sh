@@ -14,13 +14,6 @@ if [ ! -f /app/data/.initialized ]; then
     # Create default configuration
     cat > /app/data/config/config.json <<EOF
 {
-  "database": {
-    "host": "${CLOUDRON_POSTGRESQL_HOST}",
-    "port": ${CLOUDRON_POSTGRESQL_PORT},
-    "database": "${CLOUDRON_POSTGRESQL_DATABASE}",
-    "username": "${CLOUDRON_POSTGRESQL_USERNAME}",
-    "password": "${CLOUDRON_POSTGRESQL_PASSWORD}"
-  },
   "app": {
     "port": 3000,
     "environment": "production"
@@ -42,7 +35,6 @@ fi
 echo "==> Configuration:"
 echo "    Data directory: /app/data"
 echo "    Config file: /app/data/config/config.json"
-echo "    Database: ${CLOUDRON_POSTGRESQL_HOST}:${CLOUDRON_POSTGRESQL_PORT}"
 echo "    HTTP Port: 3000"
 
 # Start supervisor (which manages nginx + node)

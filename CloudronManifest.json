@@ -6,8 +6,8 @@
     "healthCheckPath": "/",
     "httpPort": 80,
     "addons": {
-        "localstorage": {},
-    },
+        "localstorage": {}
+      },
     "manifestVersion": 2,
     "icon": "logo.png",
     "postInstallMessage": "POSTINSTALL.md",

@@ -16,7 +16,6 @@
   "website": "https://diamond-manager.example.com",
   "contactEmail": "support@example.com",
   "documentationUrl": "https://diamond-manager.example.com/docs",
-  "icon": "file://icon.png",
   "tags": [
     "productivity",
     "management",

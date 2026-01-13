@@ -23,6 +23,5 @@
   ],
   "memoryLimit": 536870912,
   "minBoxVersion": "7.0.0",
-  "postInstallMessage": "## Welcome to Diamond Manager!\n\n**Getting Started:**\n\n1. Access your installation at **$CLOUDRON-APP-ORIGIN**\n2. The application is pre-configured with PostgreSQL\n3. All data is automatically backed up by Cloudron\n\n**Configuration:**\n- Application data: `/app/data`\n- Logs: Available via `cloudron logs`\n- Database: Automatically configured via addon\n\n**Support:**\n- Documentation: $CLOUDRON-APP-ORIGIN/docs\n- Issues: Report via the app's repository\n\nEnjoy using Diamond Manager!",
   "optionalSso": false
 }

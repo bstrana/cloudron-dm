@@ -7,7 +7,6 @@
         "localstorage": {}
       },
     "manifestVersion": 2,
-    "postInstallMessage": "CREATE ENV",
     "tags": ["baseball"],
     "author": "Tomislav Bosanac",
     "website": "https://yourball.club/diamond-manager",

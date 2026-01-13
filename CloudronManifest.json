@@ -9,7 +9,6 @@
         "localstorage": {}
       },
     "manifestVersion": 2,
-    "icon": "logo.png",
     "postInstallMessage": "POSTINSTALL.md",
     "tags": ["baseball"],
     "author": "Tomislav Bosanac",

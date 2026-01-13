@@ -1,0 +1,21 @@
+{
+    "id": "com.cloudron.facilmap",
+    "title": "Facilmap",
+    "tagline": "privacy-friendly, open-source versatile online map",
+    "version": "1.0.0",
+    "healthCheckPath": "/",
+    "httpPort": 8080,
+    "addons": {
+        "localstorage": {},
+        "mysql": {
+            "description": "Store map data and user information"
+        }
+    },
+    "manifestVersion": 2,
+    "icon": "logo.png",
+    "postInstallMessage": "POSTINSTALL.md",
+    "tags": ["map"],
+    "author": "Candid Dauth",
+    "website": "https://github.com/FacilMap/facilmap",
+    "memoryLimit": 2147483648
+}

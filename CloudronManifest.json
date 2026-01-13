@@ -4,6 +4,7 @@
     "tagline": "Baseball-Softball Tournament Manager",
     "version": "1.0.0",
     "httpPort": 6969,
+    "healthCheckPath": "/",
     "addons": {
         "localstorage": {}
       },

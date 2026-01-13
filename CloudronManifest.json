@@ -9,7 +9,7 @@
   "healthCheckPath": "/api/health",
   "httpPort": 80,
   "addons": {
-    "localstorage": {},
+    "localstorage": {}
   },
   "manifestVersion": 2,
   "website": "https://diamond-manager.example.com",

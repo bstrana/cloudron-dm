@@ -6,7 +6,6 @@
   "tagline": "Modern React and Node.js application management platform",
   "version": "1.0.0",
   "upstreamVersion": "1.0.0",
-  "healthCheckPath": "/",
   "httpPort": 80,
   "addons": {
     "localstorage": {}

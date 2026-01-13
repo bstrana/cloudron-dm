@@ -3,7 +3,7 @@
     "title": "Diamond Manager",
     "tagline": "Baseball-Softball Tournament Manager",
     "version": "1.0.0",
-    "httpPort": 3000,
+    "httpPort": 6969,
     "addons": {
         "localstorage": {}
       },
